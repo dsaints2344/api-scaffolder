@@ -1,0 +1,10 @@
+schema_version: "1.1"
+name: standalone-nestjs-hexagonal
+expected_outcome: |
+  The skill asks nothing it already knows; at most it confirms the plan. The result is a
+  standalone repo with a NestJS app laid out as ports and adapters: core (domain, inbound
+  and outbound ports, use cases), an HTTP inbound adapter and a Prisma outbound adapter,
+  wired through injection tokens. One sample notification feature, a dependency-cruiser
+  config enforcing that core imports nothing from adapters, Dockerfile, docker-compose
+  with PostgreSQL, a CI workflow, .vscode launch/tasks/extensions files, README, ADR and
+  scaffold.yaml. No CQRS or mediator is added because no pattern was requested.

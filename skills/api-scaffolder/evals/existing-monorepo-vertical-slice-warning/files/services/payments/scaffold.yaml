@@ -1,0 +1,17 @@
+schemaVersion: 1
+name: Payments
+mode: monorepo
+architecture: clean
+patterns: [cqrs, result]
+ide: rider
+stack:
+  language: csharp
+  runtime: net10.0
+  web: minimal-api
+  data: efcore
+  database: sqlserver
+  messaging: none
+  validation: data-annotations
+  tests: [xunit, netarchtest]
+paths:
+  service: services/payments

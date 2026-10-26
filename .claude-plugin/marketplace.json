@@ -1,0 +1,13 @@
+{
+  "name": "david-tools",
+  "description": "David's Claude Code plugins for backend development.",
+  "owner": {
+    "name": "David"
+  },
+  "plugins": [
+    {
+      "name": "api-scaffolder",
+      "source": "./"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "name": "api-scaffolder",
+  "displayName": "API Scaffolder",
+  "version": "1.0.0",
+  "description": "Scaffold API projects (standalone microservice or monorepo service) from a chosen architecture, optional pattern, tech stack and IDE, with layers, a sample feature, architecture tests and a verified build.",
+  "author": {
+    "name": "David"
+  },
+  "keywords": [
+    "scaffolding",
+    "api",
+    "clean-architecture",
+    "hexagonal",
+    "vertical-slice",
+    "cqrs",
+    "monorepo",
+    "microservices",
+    "dotnet"
+  ]
+}

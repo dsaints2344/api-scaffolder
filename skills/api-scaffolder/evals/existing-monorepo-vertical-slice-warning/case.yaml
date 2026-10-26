@@ -1,0 +1,11 @@
+schema_version: "1.1"
+name: existing-monorepo-vertical-slice-warning
+context:
+  scaffold_script: place-files.sh
+expected_outcome: |
+  The skill detects the existing .NET monorepo (Platform.slnx, central package
+  management, services/ folder, GitHub Actions, deploy/docker-compose.yml) and reads
+  services/payments/scaffold.yaml to reuse its stack instead of asking. Before generating,
+  it warns that Repository + Unit of Work on top of Vertical Slice adds indirection with
+  little gain and offers to drop it or limit it to shared aggregates, then waits for an
+  answer. Nothing under services/payments is modified.

@@ -1,0 +1,13 @@
+schema_version: "1.1"
+name: new-dotnet-monorepo-clean-cqrs
+expected_outcome: |
+  A new monorepo root with global.json, Directory.Build.props, Directory.Packages.props,
+  .editorconfig, .gitignore and a root solution. services/payments holds Payments.Domain,
+  Payments.Application, Payments.Infrastructure and Payments.Api projects plus unit,
+  integration and architecture test projects, all in the root solution. Domain has no
+  project references; Application references only Domain; the Api endpoints call
+  Application only. Application contains a CreatePayment command and a GetPaymentById
+  query with handlers. Architecture tests assert the dependency rule. Rider run
+  configurations live in .run/. WeatherForecast and Class1 are gone. scaffold.yaml records
+  clean + cqrs. The build and tests were run (or the report says plainly that the .NET SDK
+  was missing and gives the commands).
