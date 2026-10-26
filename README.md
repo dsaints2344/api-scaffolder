@@ -25,7 +25,7 @@ Before writing anything it inspects the target folder, asks only for missing inp
 ## Install
 
 ```bash
-claude plugin marketplace add <your-github-user>/api-scaffolder
+claude plugin marketplace add dsaints2344/api-scaffolder
 claude plugin install api-scaffolder@david-tools
 ```
 

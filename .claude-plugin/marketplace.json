@@ -1,8 +1,8 @@
 {
   "name": "david-tools",
-  "description": "David's Claude Code plugins for backend development.",
+  "description": "David De Los Santos's Claude Code plugins for backend development.",
   "owner": {
-    "name": "David"
+    "name": "David De Los Santos"
   },
   "plugins": [
     {

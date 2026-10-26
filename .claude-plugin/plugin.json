@@ -4,7 +4,7 @@
   "version": "1.0.0",
   "description": "Scaffold API projects (standalone microservice or monorepo service) from a chosen architecture, optional pattern, tech stack and IDE, with layers, a sample feature, architecture tests and a verified build.",
   "author": {
-    "name": "David"
+    "name": "David De Los Santos"
   },
   "keywords": [
     "scaffolding",
